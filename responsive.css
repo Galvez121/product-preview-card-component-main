@@ -1,0 +1,29 @@
+@media (max-width: 41.875rem) {
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 3rem;
+    width: 23rem;
+  }
+
+  .desktop_picture {
+    display: none;
+  }
+
+  .no_display {
+    display: flex;
+    width: 100%;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-left-radius: 0%;
+  }
+
+  .product_info {
+    width: auto;
+    margin-left: 1.25rem;
+  }
+
+  /* .addButton {
+    margin-left: 1.25rem;
+  } */
+}

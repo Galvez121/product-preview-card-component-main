@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Frontend Mentor | Product preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        display: none;
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <img
+          src="images/image-product-desktop.jpg"
+          alt="image-product-desktop"
+          class="desktop_picture"
+        />
+        <img
+          src="images/image-product-mobile.jpg"
+          alt="image-product-mobile"
+          class="no_display"
+        />
+        <div class="product_info">
+          <span class="prod_name">Perfume</span>
+          <i class="fas fa-shopping-basket"></i>
+
+          <h1 class="header_one">Gabrielle Essence Eau De Parfum</h1>
+          <p>
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <span> $149.99</span>
+          <span>169.99</span> <br />
+          <button type="button" class="addButton">
+            <img
+              src="/images/icon-cart.svg"
+              alt="icon-cart"
+              class="icon-cart"
+            />
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Juan Galvez</a>.
+    </div>
+  </body>
+</html>
